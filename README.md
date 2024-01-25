@@ -1,12 +1,14 @@
 <!-- @format -->
 
+### My Learning Journey
+
 ## 1. What is Cypress?
 
-[Docs Link](https://www.cypress.io/app#browser_testing)
+> [Docs Link](https://www.cypress.io/app#browser_testing)
 
 ## 2. How Cypress Works?
 
-[Docs Link](https://www.cypress.io/how-it-works)
+> [Docs Link](https://www.cypress.io/how-it-works)
 
 ## 3. Differences between Cypress and other Automation Tools?!
 
@@ -14,11 +16,11 @@
 
 ## 4. Cypress Test Runner
 
-[Docs Link](https://docs.cypress.io/guides/core-concepts/cypress-app)
+> [Docs Link](https://docs.cypress.io/guides/core-concepts/cypress-app)
 
 ## 5. Cypress API - Overview (cy.get...)
 
-[Docs Link](https://docs.cypress.io/api/table-of-contents/)
+> [Docs Link](https://docs.cypress.io/api/table-of-contents/)
 
 ## 6. Mocha - Overview
 
