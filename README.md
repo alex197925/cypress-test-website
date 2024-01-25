@@ -10,7 +10,7 @@
 
 ## Differences between Cypress and other Automation Tools?!
 
-[cypress_differences.pdf](https://github.com/alex197925/cypress-test-website/files/14050846/cypress_differences.pdf)
+### [cypress_differences.pdf](https://github.com/alex197925/cypress-test-website/files/14050846/cypress_differences.pdf)
 
 ## Cypress Test Runner
 
