@@ -16,7 +16,7 @@ describe("Test Contact Us form via WebdriverUni", () => {
     cy.get("#contact_reply").contains("Thank You for your Message!");
   });
 
-  it.only("Should not be able to submit a successful submission vie contact us form as fields are required ", () => {
+  it("Should not be able to submit a successful submission vie contact us form as fields are required ", () => {
     // cypress code
     cy.get('[name="first_name"]').type("Tom");
     cy.get('[name="last_name"]').type("Smith");
