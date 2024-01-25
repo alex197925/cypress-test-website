@@ -4,11 +4,11 @@
 
 ## 1. What is Cypress?
 
-> [Docs Link](https://www.cypress.io/app#browser_testing)
+> [Link to Cypress Website](https://www.cypress.io/app#browser_testing)
 
 ## 2. How Cypress Works?
 
-> [Docs Link](https://www.cypress.io/how-it-works)
+> [Link to Cypress Website](https://www.cypress.io/how-it-works)
 
 ## 3. Differences between Cypress and other Automation Tools?!
 
@@ -16,14 +16,18 @@
 
 ## 4. Cypress Test Runner
 
-> [Docs Link](https://docs.cypress.io/guides/core-concepts/cypress-app)
+> [Link to Cypress Website](https://docs.cypress.io/guides/core-concepts/cypress-app)
 
-## 5. Cypress API - Overview (cy.get...)
+## 5. Cypress API - Overview (get(), .click(), .type() ....)
 
-> [Docs Link](https://docs.cypress.io/api/table-of-contents/)
+> [Link to Cypress Website](https://docs.cypress.io/api/table-of-contents/)
 
 ## 6. Mocha - Overview
 
-> [Docs Link](https://mochajs.org/)
+> [Link to MOcha Website](https://mochajs.org/)
 
 ### [mocha_overview.pdf](https://github.com/alex197925/cypress-test-website/files/14050923/mocha_overview.pdf)
+
+## 7. Selectors - Best Practices (data-\*)
+
+> [Link to Cypress Website](https://docs.cypress.io/guides/references/best-practices)
