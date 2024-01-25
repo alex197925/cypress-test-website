@@ -31,3 +31,7 @@
 ## 7. Selectors - Best Practices (data-\*)
 
 > [Link to Cypress Website](https://docs.cypress.io/guides/references/best-practices)
+
+## 8. Xpath Selectors
+
+> [Link to w3schools Website](https://www.w3schools.com/xml/xpath_syntax.asp)
