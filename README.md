@@ -71,3 +71,7 @@ npx cypress run
 #### Command Line
 
 > [Link to Cypress Website](https://docs.cypress.io/guides/guides/command-line)
+
+## 15. Chains of Commands
+
+> [Link to Cypress Website](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress#Chains-of-Commands)
