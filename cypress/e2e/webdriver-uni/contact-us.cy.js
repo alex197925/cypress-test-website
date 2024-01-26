@@ -7,7 +7,7 @@ describe("Test Contact Us form via WebdriverUni", () => {
   });
 
   // Input fields Test
-  it.only("Should be able to submit a successful submission vie contact us form", () => {
+  it("Should be able to submit a successful submission vie contact us form", () => {
     // cypress code
     cy.document().should("have.property", "charset").and("eq", "UTF-8");
     cy.title().should("include", "WebDriver | Contact Us");
