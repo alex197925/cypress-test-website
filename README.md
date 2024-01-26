@@ -61,3 +61,9 @@
 ## 13. URL
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/url#Syntax)
+
+## 14. Headless Electron browser_testing
+
+```
+npx cypress run
+```
