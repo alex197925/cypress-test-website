@@ -18,11 +18,12 @@ describe("Test Contact Us form via WebdriverUni", () => {
     cy.get("h1").should("have.text", "Thank You for your Message!");
   });
 
-  it("Should not be able to submit a successful submission vie contact us form as fields are required ", () => {
+  it.only("Should not be able to submit a successful submission vie contact us form as fields are required ", () => {
     // cypress code
     cy.get('[name="first_name"]').type("Tom");
     cy.get('[name="last_name"]').type("Smith");
     cy.get("textarea.feedback-input").type("Some comments.....");
     cy.get('[type="submit"]').click();
+    cy.get("body").contains("Error: all fields are required");
   });
 });
