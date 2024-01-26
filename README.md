@@ -62,7 +62,7 @@
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/url#Syntax)
 
-## 14. Headless Electron browser_testing
+## 14. Headless Electron Browser
 
 ```
 npx cypress run
