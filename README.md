@@ -47,3 +47,9 @@
 ## 10. Cypress Contains
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/contains#Syntax)
+
+## 11. Document
+
+### Get the window.document of the page that is currently active.
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/document#Syntax)
