@@ -43,3 +43,7 @@
 > [Link to Cypress Website](https://docs.cypress.io/guides/references/assertions#Adding-New-Assertions)
 
 > [Link to Cypress Website](https://docs.cypress.io/guides/references/assertions#Chai-jQuery)
+
+## 10. Cypress contains
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/contains#Syntax)
