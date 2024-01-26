@@ -53,3 +53,7 @@
 ### Get the window.document of the page that is currently active.
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/document#Syntax)
+
+## 12. Title
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/title#Syntax)
