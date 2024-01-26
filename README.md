@@ -57,3 +57,7 @@
 ## 12. Title
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/title#Syntax)
+
+## 13. URL
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/url#Syntax)
