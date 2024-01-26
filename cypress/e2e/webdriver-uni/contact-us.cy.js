@@ -7,7 +7,7 @@ describe("Test Contact Us form via WebdriverUni", () => {
   });
 
   // Input fields Test
-  it.only("Should be able to submit a successful submission vie contact us form", () => {
+  it("Should be able to submit a successful submission vie contact us form", () => {
     // cypress code
     //cy.get("#contact-us").click({ force: true });
     cy.get('[name="first_name"]').type("Joe");
