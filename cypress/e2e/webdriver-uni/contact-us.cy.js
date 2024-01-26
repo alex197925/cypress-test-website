@@ -10,6 +10,7 @@ describe("Test Contact Us form via WebdriverUni", () => {
   it.only("Should be able to submit a successful submission vie contact us form", () => {
     // cypress code
     cy.document().should("have.property", "charset").and("eq", "UTF-8");
+    cy.title().should("include", "WebDriver | Contact Us");
     //cy.get("#contact-us").click({ force: true });
     cy.get('[name="first_name"]').type("Joe");
     cy.get('[name="last_name"]').type("Smith");
