@@ -67,3 +67,7 @@
 ```
 npx cypress run
 ```
+
+#### Command Line
+
+> [Link to Cypress Website](https://docs.cypress.io/guides/guides/command-line)
