@@ -18,4 +18,8 @@ describe("Inspect Automation Test Store item using chain of commonds", () => {
   it("Click on the first item using item text", () => {
     cy.get(".prdocutname").contains("Skinsheen Bronzer Stick").click();
   });
+
+  it.only("Click on the first item using index", () => {
+    cy.get(".fixed_wrapper").find(".prdocutname").eq(0).click();
+  });
 });
