@@ -38,4 +38,6 @@
 
 ## 9. Chai Assertions
 
+> [Link to Chai Website](https://www.chaijs.com/)
+
 > [Link to Cypress Website](https://docs.cypress.io/guides/references/assertions#Adding-New-Assertions)
