@@ -35,7 +35,7 @@ describe("Verifying variables, cypress commands and jquery commands", () => {
     // makeupLink.click();
     // skincareLink.click();
   });
-  it.only("Check if header exist in Makeup product page", () => {
+  it("Check if header exist in Makeup product page", () => {
     cy.get("a[href*='product/category&path=']").contains("Makeup").click();
 
     // Following code will fail
@@ -45,6 +45,20 @@ describe("Verifying variables, cypress commands and jquery commands", () => {
     cy.get("h1 .maintext").then(($headerText) => {
       const headerText = $headerText.text();
       cy.log("Found header text: " + headerText);
+      expect(headerText).is.eq("Makeup");
     });
+  });
+
+  it.only("Validate properties of the Contact Us Page", () => {
+    cy.visit("https://automationteststore.com/index.php?rt=content/contact");
+
+    // Uses cypress commands and chaining
+    cy.contains("#ContactUsFrm", "Contact Us Form")
+      .find("#field_11")
+      .should("contain", "First name:");
+
+    // JQuery Approach
+
+    // Embedded commands (Closure)
   });
 });
