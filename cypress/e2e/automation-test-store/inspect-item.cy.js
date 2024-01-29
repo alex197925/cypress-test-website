@@ -3,7 +3,7 @@
 /// <reference types="cypress" />
 /// <reference types= '@cypress/xpath' />
 
-describe("Inspect Automation Test Store item using chain of commonds", () => {
+describe("Inspect Automation Test Store item using chain of commands", () => {
   beforeEach(() => {
     cy.visit("https://automationteststore.com/");
   });
