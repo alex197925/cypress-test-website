@@ -75,3 +75,7 @@ npx cypress run
 ## 15. Chains of Commands
 
 > [Link to Cypress Website](https://docs.cypress.io/guides/core-concepts/introduction-to-cypress#Chains-of-Commands)
+
+## 16. synchronous_vs_asynchronous
+
+### [synchronous_vs_asynchronous.pdf](https://github.com/alex197925/cypress-test-website/files/14082974/synchronous_vs_asynchronous.pdf)
