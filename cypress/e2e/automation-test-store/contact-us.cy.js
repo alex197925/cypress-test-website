@@ -11,7 +11,11 @@ describe("Test Contact Us form via Automation Test Store", () => {
   // Input fields Test
   it("Should be able to submit a successful submission vie contact us form", () => {
     // Generating Dynamic Selector with Xpath for Contact Us button
-    cy.get("a[href$='contact']").click();
+    cy.get("a[href$='contact']")
+      .click()
+      .then((buttonText) => {
+        console.log("Text of the button is: " + buttonText.text());
+      });
 
     // Using Xpath, getting button "Contact Us"
     // cy.xpath("//a[contains(@href, 'contact')]").click();
@@ -26,5 +30,6 @@ describe("Test Contact Us form via Automation Test Store", () => {
       "have.text",
       "Your enquiry has been successfully sent to the store owner!"
     );
+    cy.log("Test was completed!!");
   });
 });
