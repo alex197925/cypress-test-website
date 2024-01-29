@@ -91,3 +91,7 @@ npx cypress run
 ## 19. then
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/then)
+
+## 20. Closures
+
+> [Link to Cypress Website](https://docs.cypress.io/guides/core-concepts/variables-and-aliases#Closures)
