@@ -1,7 +1,6 @@
 /** @format */
 
 /// <reference types="cypress" />
-/// <reference types= '@cypress/xpath' />
 
 describe("Test Contact Us form via Automation Test Store", () => {
   beforeEach(() => {

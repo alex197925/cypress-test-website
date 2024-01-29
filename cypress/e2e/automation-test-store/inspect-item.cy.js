@@ -1,7 +1,6 @@
 /** @format */
 
 /// <reference types="cypress" />
-/// <reference types= '@cypress/xpath' />
 
 describe("Inspect Automation Test Store item using chain of commands", () => {
   beforeEach(() => {
