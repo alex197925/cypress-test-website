@@ -87,3 +87,7 @@ npx cypress run
 ## 18. Cypress Log Command
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/log)
+
+## 19. then
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/then)
