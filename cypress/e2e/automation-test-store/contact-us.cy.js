@@ -9,7 +9,7 @@ describe("Test Contact Us form via Automation Test Store", () => {
   });
 
   // Input fields Test
-  it.only("Should be able to submit a successful submission vie contact us form", () => {
+  it("Should be able to submit a successful submission vie contact us form", () => {
     // Generating Dynamic Selector with Xpath for Contact Us button
     cy.get("a[href$='contact']")
       .click()
