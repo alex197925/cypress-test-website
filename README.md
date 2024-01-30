@@ -101,3 +101,11 @@ npx cypress run
 ### - each()
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/each#Examples)
+
+### 22. Aliases
+
+> [Link to Cypress Website](https://docs.cypress.io/guides/core-concepts/variables-and-aliases#Aliases)
+
+### 23. Invoke
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/invoke#Syntax)
