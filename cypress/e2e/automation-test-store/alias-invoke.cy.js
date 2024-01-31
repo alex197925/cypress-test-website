@@ -55,16 +55,21 @@ describe("Alias and invoke ", () => {
       // cy.log("Non sale price in total:" + itemsPriceTotal);
     });
 
-    cy.get("@saleItemPrice").then(($linkText) => {
-      let saleItemsPrice = 0;
-      let saleItemPrice = $linkText.split("$");
-      let i;
-      for (let i = 0; i < saleItemPrice.length; i++) {
-        // cy.log(saleItemPrice[i]);
-        saleItemsPrice += Number(saleItemPrice[i]);
-      }
-      itemsTotal += saleItemsPrice;
-      cy.log("Sale price in total:" + saleItemsPrice);
-    });
+    cy.get("@saleItemPrice")
+      .then(($linkText) => {
+        let saleItemsPrice = 0;
+        let saleItemPrice = $linkText.split("$");
+        let i;
+        for (let i = 0; i < saleItemPrice.length; i++) {
+          // cy.log(saleItemPrice[i]);
+          saleItemsPrice += Number(saleItemPrice[i]);
+        }
+        itemsTotal += saleItemsPrice;
+        cy.log("Sale price in total:" + saleItemsPrice);
+      })
+      .then(() => {
+        cy.log("The total price of all products: " + itemsTotal);
+        expect(itemsTotal).to.equal(660.5);
+      });
   });
 });
