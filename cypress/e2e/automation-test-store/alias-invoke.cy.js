@@ -28,4 +28,29 @@ describe("Alias and invoke ", () => {
       .invoke("attr", "title")
       .should("include", "Add to Cart");
   });
+  it.only("Calculate of total and sale products", () => {
+    // cy.get(".thumbnail")
+    //   .as("productThumbnail")
+    //   .find(".oneprice")
+    //   .each(($el, index, $list) => {
+    //     cy.log($el.text());
+    //   });
+
+    cy.get(".thumbnail").find(".oneprice").invoke("text").as("textPrice");
+    cy.get(".thumbnail").find(".priceold").invoke("text").as("saleItemPrice");
+
+    let itemsTotal = 0;
+    cy.get("@textPrice").then(($linkText) => {
+      // cy.log($linkText);
+      let itemsPiceTotal = 0;
+      let itemPrice = $linkText.split("$");
+      let i;
+      for (let i = 0; i < itemPrice.length; i++) {
+        // cy.log(itemPrice[i]);
+        itemsPiceTotal += Number(itemPrice[i]);
+      }
+      itemsTotal += itemsPiceTotal;
+      // cy.log("Non sale price in total:" + itemsPiceTotal);
+    });
+  });
 });
