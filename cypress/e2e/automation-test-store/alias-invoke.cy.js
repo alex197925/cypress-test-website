@@ -36,21 +36,35 @@ describe("Alias and invoke ", () => {
     //     cy.log($el.text());
     //   });
 
+    //Create Alias
     cy.get(".thumbnail").find(".oneprice").invoke("text").as("textPrice");
-    cy.get(".thumbnail").find(".priceold").invoke("text").as("saleItemPrice");
+    cy.get(".thumbnail").find(".pricenew ").invoke("text").as("saleItemPrice");
 
     let itemsTotal = 0;
+    //use Alias
     cy.get("@textPrice").then(($linkText) => {
       // cy.log($linkText);
-      let itemsPiceTotal = 0;
+      let itemsPriceTotal = 0;
       let itemPrice = $linkText.split("$");
       let i;
       for (let i = 0; i < itemPrice.length; i++) {
         // cy.log(itemPrice[i]);
-        itemsPiceTotal += Number(itemPrice[i]);
+        itemsPriceTotal += Number(itemPrice[i]);
       }
-      itemsTotal += itemsPiceTotal;
-      // cy.log("Non sale price in total:" + itemsPiceTotal);
+      itemsTotal += itemsPriceTotal;
+      // cy.log("Non sale price in total:" + itemsPriceTotal);
+    });
+
+    cy.get("@saleItemPrice").then(($linkText) => {
+      let saleItemsPrice = 0;
+      let saleItemPrice = $linkText.split("$");
+      let i;
+      for (let i = 0; i < saleItemPrice.length; i++) {
+        // cy.log(saleItemPrice[i]);
+        saleItemsPrice += Number(saleItemPrice[i]);
+      }
+      itemsTotal += saleItemsPrice;
+      cy.log("Sale price in total:" + saleItemsPrice);
     });
   });
 });
