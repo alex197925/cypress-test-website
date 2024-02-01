@@ -3,7 +3,7 @@
 
 describe("Cypress web security", () => {
   it("Validate visiting two different domains", () => {
-    // Test  not will pass
+    // Test will not pass
 
     cy.visit("https://webdriveruniversity.com/");
     cy.visit("https://www.google.com");
