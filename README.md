@@ -134,3 +134,18 @@ npx cypress run
 <small> **_Cypress requires that the URLs navigated to have the same superdomain for the entirety of a single test_**</small>
 
 > [Link to Cypress Website](https://docs.cypress.io/guides/guides/web-security#Limitations)
+
+### Set chromeWebSecurity to false
+
+<small> **_Setting chromeWebSecurity to false in Chrome-based browsers allows you to do the following:_**</small>
+
+- Display insecure content
+- Navigate to any superdomain without cross-origin errors with or without cy.origin
+- Access cross-origin iframes that are embedded in your application
+
+<small> <em>cypress.config.js</em> </small>
+
+```
+  chromeWebSecurity: false,
+
+```
