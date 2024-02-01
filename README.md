@@ -128,3 +128,9 @@ npx cypress run
 ```
 
 > [jQuery removeAttr Docs](https://www.w3schools.com/jquery/html_removeattr.asp)
+
+### Limitations
+
+<small> **_Cypress requires that the URLs navigated to have the same superdomain for the entirety of a single test_**</small>
+
+> [Link to Cypress Website](https://docs.cypress.io/guides/guides/web-security#Limitations)
