@@ -2,8 +2,9 @@
 ///  <reference types="Cypress" />
 
 describe("Cypress web security", () => {
-  // Input fields Test
   it("Validate visiting two different domains", () => {
+    // Test will pass, after added chromeWebSecurity: false, to the config.js file
+
     cy.visit("https://webdriveruniversity.com/");
     cy.visit("https://automationteststore.com/");
   });
