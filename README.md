@@ -149,3 +149,9 @@ npx cypress run
   chromeWebSecurity: false,
 
 ```
+
+### Origin
+
+<small> **_Visit multiple domains of different origin in a single test._**</small>
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/origin#__docusaurus_skipToContent_fallback)
