@@ -127,4 +127,4 @@ npx cypress run
  cy.get("#contact-us").invoke("removeAttr", "target").click({ force: true });
 ```
 
-> [jQuery removeAttr()](https://www.w3schools.com/jquery/html_removeattr.asp)
+> [jQuery removeAttr Docs](https://www.w3schools.com/jquery/html_removeattr.asp)
