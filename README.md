@@ -109,3 +109,7 @@ npx cypress run
 ### 23. Invoke
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/invoke#Syntax)
+
+### 24. Trade-offs
+
+> [Link to Cypress Website](https://docs.cypress.io/guides/references/trade-offs#Permanent-trade-offs-1)
