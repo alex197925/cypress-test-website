@@ -117,3 +117,14 @@ npx cypress run
 ### Recipes
 
 > [Link to Cypress Website](https://docs.cypress.io/examples/recipes/#Fundamentals)
+
+### Handling Multiple Browser table
+
+<small>jQuery removeAttr() Method.</small><br>
+<small>Remove terget_blank attr from link element</small>
+
+```
+ cy.get("#contact-us").invoke("removeAttr", "target").click({ force: true });
+```
+
+> [jQuery removeAttr()](https://www.w3schools.com/jquery/html_removeattr.asp)
