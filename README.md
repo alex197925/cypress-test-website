@@ -155,3 +155,15 @@ npx cypress run
 <small> **_Visit multiple domains of different origin in a single test._**</small>
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/origin#__docusaurus_skipToContent_fallback)
+
+### Go
+
+<small> **_Navigate back or forward to the previous or next URL in the browser's history._**</small>
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/go#Syntax)
+
+### Reload
+
+<small> **_Reload the page._**</small>
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/reload)
