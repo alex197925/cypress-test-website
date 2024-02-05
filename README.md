@@ -174,3 +174,10 @@ npx cypress run
 <small> **_These events are useful not only to control your application's behavior, but also for debugging purposes._**</small>
 
 > [Link to Cypress Website](https://docs.cypress.io/api/cypress-api/catalog-of-events#Event-Types)
+
+### Stub
+
+<small>**_Replace a function, record its usage and control its behavior._**</small>
+<small>**_cy.stub() is a utility function, and is not a Cypress command, query or assertion. It is not retryable, chainable, or timeout-able._**</small>
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/stub#Syntax)
