@@ -33,5 +33,9 @@ describe("Validate webdriveruni homepage links", () => {
     cy.url().should("contain", "Login-Portal");
     // Navigate back to home page
     cy.go("back");
+
+    cy.get("#to-do-list").invoke("removeAttr", "target").click({ force: true });
+    cy.url().should("contain", "To-Do-List");
+    cy.go("back");
   });
 });
