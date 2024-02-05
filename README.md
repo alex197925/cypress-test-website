@@ -167,3 +167,10 @@ npx cypress run
 <small> **_Reload the page._**</small>
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/reload)
+
+### Catalog of Events
+
+<small> **_Cypress emits a series of events as it runs in your browser._**</small>
+<small> **_These events are useful not only to control your application's behavior, but also for debugging purposes._**</small>
+
+> [Link to Cypress Website](https://docs.cypress.io/api/cypress-api/catalog-of-events#Event-Types)
