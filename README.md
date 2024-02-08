@@ -181,3 +181,10 @@ npx cypress run
 <small>**_cy.stub() is a utility function, and is not a Cypress command, query or assertion. It is not retryable, chainable, or timeout-able._**</small>
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/stub#Syntax)
+
+### Iframe
+
+<small>**_If your site embeds an <iframe> that is a cross-origin frame,_**</small>
+<small>**_Cypress will not be able to automate or communicate with this <iframe>._**</small>
+
+> [Link to Cypress Website](https://docs.cypress.io/guides/guides/web-security#Cross-origin-iframes)
