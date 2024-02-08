@@ -188,3 +188,15 @@ npx cypress run
 <small>**_Cypress will not be able to automate or communicate with this <iframe>._**</small>
 
 > [Link to Cypress Website](https://docs.cypress.io/guides/guides/web-security#Cross-origin-iframes)
+
+### Check
+
+<small>**_Check checkbox(es) or radio(s)._**</small>
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/check#Syntax)
+
+### Uncheck
+
+<small>**_Uncheck checkbox(es)._**</small>
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/uncheck)
