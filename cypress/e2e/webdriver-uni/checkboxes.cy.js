@@ -2,7 +2,7 @@
 ///  <reference types="Cypress" />
 
 describe("Verify checkboxes via webdriversuni", () => {
-  it("check and validate checkbox", () => {
+  it("Check and validate checkbox", () => {
     cy.visit("https://webdriveruniversity.com");
     cy.get("#dropdown-checkboxes-radiobuttons")
       .invoke("removeAttr", "target")
@@ -15,5 +15,14 @@ describe("Verify checkboxes via webdriversuni", () => {
     cy.get("#checkboxes > :nth-child(1) > input").as("option-1");
     //cy.get("@option-1").check();
     cy.get("@option-1").check().should("be.checked");
+  });
+  it("Uncheck and validate checkbox", () => {
+    cy.visit("https://webdriveruniversity.com");
+    cy.get("#dropdown-checkboxes-radiobuttons")
+      .invoke("removeAttr", "target")
+      .click({ force: true });
+
+    cy.get("#checkboxes > :nth-child(5) > input").as("option-3");
+    cy.get("@option-3").uncheck().should("not.be.checked");
   });
 });
