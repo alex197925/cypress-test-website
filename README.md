@@ -200,3 +200,9 @@ npx cypress run
 <small>**_Uncheck checkbox(es)._**</small>
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/uncheck)
+
+### Trigger
+
+<small>**_Trigger an event on a DOM element._**</small>
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/trigger#Syntax)
