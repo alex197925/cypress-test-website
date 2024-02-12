@@ -206,3 +206,9 @@ npx cypress run
 <small>**_Trigger an event on a DOM element._**</small>
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/trigger#Syntax)
+
+### Cypress Cheat Sheet (Traversing DOM Elements)
+
+> [Link to Example Cypress Website](https://example.cypress.io/commands/traversal)
+
+<small>**_.children(), .closest(), .eq() .......... _**</small>
