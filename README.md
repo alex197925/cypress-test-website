@@ -210,5 +210,3 @@ npx cypress run
 ### Cypress Cheat Sheet (Traversing DOM Elements)
 
 > [Link to Example Cypress Website](https://example.cypress.io/commands/traversal)
-
-<small>**_.children(), .closest(), .eq() .......... _**</small>
