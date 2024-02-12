@@ -34,11 +34,13 @@ describe("Traversing DOM elements in Cypress", () => {
       .should("have.length", 7);
   });
 
-  it.only("first() to retrieve the first DOM element within elements", () => {
+  it("first() to retrieve the first DOM element within elements", () => {
     cy.get(".traversal-table td").first().should("contain", "Andy");
   });
 
-  it("last() to retrieve the last DOM element within elements", () => {});
+  it.only("last() to retrieve the last DOM element within elements", () => {
+    cy.get(".traversal-table td").last().should("contain", "Scott");
+  });
 
   it("nextAll() to get all of the next sibling DOM elements within elements", () => {});
 
