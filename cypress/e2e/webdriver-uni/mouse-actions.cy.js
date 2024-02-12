@@ -31,4 +31,17 @@ describe("Test mouse actions", () => {
 
     cy.get("#double-click").dblclick("center");
   });
+  it.only("I should be able hold down the left mouse click button on given element", () => {
+    cy.visit("https://webdriveruniversity.com");
+    cy.get("#actions")
+      .scrollIntoView()
+      .invoke("removeAttr", "target")
+      .click({ force: true });
+
+    cy.get("#click-box")
+      .trigger("mousedown", { which: 1 })
+      .then(($element) => {
+        expect($element).to.have.css("background-color", "rgb(0, 255, 0)");
+      });
+  });
 });
