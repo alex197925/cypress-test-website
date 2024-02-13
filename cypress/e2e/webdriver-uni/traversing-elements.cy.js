@@ -53,13 +53,17 @@ describe("Traversing DOM elements in Cypress", () => {
     cy.get("#coffee").nextUntil("#milk").should("have.length", "1");
   });
 
-  it.only("not() to remove DOM element(s) from the set of elements", () => {
+  it("not() to remove DOM element(s) from the set of elements", () => {
     cy.get(".traversal-button-states > button")
       .not(".disabled")
       .should("not.contain", "Warning");
   });
 
-  it("parent() To get parent DOM element of elements", () => {});
+  it.only("parent() To get parent DOM element of elements", () => {
+    cy.get(".traversal-mark")
+      .parent()
+      .should("contain", "sed do eiusmod tempor ");
+  });
 
   it("parents() to get parents DOM element of elements", () => {});
 
