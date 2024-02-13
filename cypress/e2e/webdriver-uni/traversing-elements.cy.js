@@ -42,14 +42,16 @@ describe("Traversing DOM elements in Cypress", () => {
     cy.get(".traversal-table td").last().should("contain", "Scott");
   });
 
-  it.only("nextAll() to get all of the next sibling DOM elements within elements", () => {
+  it("nextAll() to get all of the next sibling DOM elements within elements", () => {
     cy.get(".traversal-drinks-list")
       .contains("Tea")
       .nextAll()
       .should("have.length", "3");
   });
 
-  it("nextUntil() to get all of the next sibling DOM elements within elements until another element", () => {});
+  it.only("nextUntil() to get all of the next sibling DOM elements within elements until another element", () => {
+    cy.get("#coffee").nextUntil("#milk").should("have.length", "1");
+  });
 
   it("not() to remove DOM element(s) from the set of elements", () => {});
 
