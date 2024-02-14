@@ -216,3 +216,10 @@ npx cypress run
 <small>**_Selects a file or files in an HTML5 input element or simulates dragging a file or files into the browser._**</small>
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/selectfile#Syntax)
+
+### Hooks
+
+<small>**_These are helpful to set conditions that you want to run before a set of tests or before each test._**</small>
+<small>**_They're also helpful to clean up conditions after a set of tests or after each test._**</small>
+
+> [Link to Cypress Website](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests#Hooks)
