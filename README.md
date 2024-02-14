@@ -223,3 +223,7 @@ npx cypress run
 <small>**_They're also helpful to clean up conditions after a set of tests or after each test._**</small>
 
 > [Link to Cypress Website](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests#Hooks)
+
+### Fixture
+
+<small>**_Load a fixed set of data located in a file._**</small>
