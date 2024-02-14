@@ -210,3 +210,9 @@ npx cypress run
 ### Cypress Cheat Sheet (Traversing DOM Elements)
 
 > [Link to Example Cypress Website](https://example.cypress.io/commands/traversal)
+
+### selectFile
+
+<small>**_Selects a file or files in an HTML5 input element or simulates dragging a file or files into the browser._**</small>
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/selectfile#Syntax)
