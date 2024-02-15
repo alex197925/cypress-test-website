@@ -1,3 +1,5 @@
+/** @format */
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -15,8 +17,13 @@
 //
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
+Cypress.Commands.add("selectProduct", (productName) => {
+  cy.get(".fixed_wrapper .prdocutname").each(($el, index, $list) => {
+    if ($el.text().includes(productName)) {
+      cy.wrap($el).click();
+    }
+  });
+});
 // -- This is a dual command --
 // Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
 //
