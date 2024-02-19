@@ -3,7 +3,7 @@
 
 describe("Verify Autocomplete dropdown list via webdriversuni", () => {
   it("Select specific product via autocomplete list", () => {
-    cy.visit("https://webdriveruniversity.com");
+    cy.visit("/");
     cy.get("#autocomplete-textfield")
       .invoke("removeAttr", "target")
       .click({ force: true });

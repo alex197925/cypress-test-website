@@ -12,7 +12,7 @@ describe("Test Contact Us form via WebdriverUni", () => {
 
   // Input fields Test
   it("Should be able to submit a successful submission vie contact us form", () => {
-    cy.visit("https://webdriveruniversity.com");
+    cy.visit("/");
     cy.get("#contact-us").invoke("removeAttr", "target").click({ force: true });
     // cypress code
     cy.document().should("have.property", "charset").and("eq", "UTF-8");
@@ -27,7 +27,7 @@ describe("Test Contact Us form via WebdriverUni", () => {
     // cy.get("h1").should("have.text", "Thank You for your Message!");
 
     cy.webdriverUni_ContactForm_Submission(
-      data.first_name,
+      Cypress.env("first_name"),
       data.last_name,
       data.email,
       "How i can learn Cypress?",

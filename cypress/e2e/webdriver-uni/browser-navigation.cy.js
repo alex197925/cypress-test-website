@@ -4,7 +4,7 @@
 describe("Validate webdriveruni homepage links", () => {
   it("Confirm links redirect to the correct pages", () => {
     // Navigate to the home page
-    cy.visit("https://webdriveruniversity.com");
+    cy.visit("/");
     // Click on button "Contact us", remove attribute _target, click on link
     cy.get("#contact-us").invoke("removeAttr", "target").click({ force: true });
     // Confirm that url contain contactus path
