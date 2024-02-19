@@ -14,6 +14,10 @@ describe("Add multiple items to basket  ", () => {
   });
 
   it("Add specific item to basket", () => {
-    cy.log(data);
+    // cy.log(data);
+    globalThis.data.productName.forEach((element) => {
+      cy.addProductToBasket(element);
+    });
+    cy.get(".dropdown-toggle > .fa").click();
   });
 });
