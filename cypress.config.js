@@ -16,6 +16,7 @@ module.exports = defineConfig({
     pageLoadTimeout: 12000,
     env: {
       first_name: "Sarah",
+      webdriveruni_homepage: "https://webdriveruniversity.com",
     },
   },
 });
