@@ -10,10 +10,14 @@ describe("Test Contact Us form via WebdriverUni", () => {
     });
   });
 
+  beforeEach(() => {
+    cy.visit(
+      Cypress.env("webdriveruni_homepage") + "/Contact-Us/contactus.html"
+    );
+  });
+
   // Input fields Test
   it("Should be able to submit a successful submission vie contact us form", () => {
-    cy.visit("/");
-    cy.get("#contact-us").invoke("removeAttr", "target").click({ force: true });
     // cypress code
     cy.document().should("have.property", "charset").and("eq", "UTF-8");
     cy.title().should("include", "WebDriver | Contact Us");
@@ -37,8 +41,6 @@ describe("Test Contact Us form via WebdriverUni", () => {
   });
 
   it("Should not be able to submit a successful submission vie contact us form as fields are required ", () => {
-    cy.visit("https://webdriveruniversity.com");
-    cy.get("#contact-us").invoke("removeAttr", "target").click({ force: true });
     // cypress code
     // cy.get('[name="first_name"]').type(data.first_name);
     // cy.get('[name="last_name"]').type(data.last_name);
