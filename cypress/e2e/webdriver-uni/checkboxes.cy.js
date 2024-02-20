@@ -3,10 +3,8 @@
 
 describe("Verify checkboxes via webdriversuni", () => {
   beforeEach(() => {
-    cy.navigateTo_WebdriverUni_Homepage();
-    // .get("#dropdown-checkboxes-radiobuttons")
-    // .invoke("removeAttr", "target")
-    // .click({ force: true });
+    // Custom command
+    cy.navigateTo_WebdriverUni_Checkbox_Page();
   });
   it("Check and validate checkbox", () => {
     // cy.get("#checkboxes > :nth-child(1) > input").check();

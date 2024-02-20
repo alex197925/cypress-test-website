@@ -19,9 +19,10 @@
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
 Cypress.Commands.add("navigateTo_WebdriverUni_Homepage", () => {
   cy.visit("/");
-  cy.get("#dropdown-checkboxes-radiobuttons")
-    .invoke("removeAttr", "target")
-    .click({ force: true });
+});
+
+Cypress.Commands.add("navigateTo_WebdriverUni_Checkbox_Page", () => {
+  cy.visit("/" + "/Dropdown-Checkboxes-RadioButtons/index.html");
 });
 
 Cypress.Commands.add("selectProduct", (productName) => {
