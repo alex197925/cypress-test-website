@@ -1,6 +1,7 @@
 /** @format */
 
 import HomePage_PO from "../../support/pageObjects/webdriver-uni/Homepage_Po";
+import Contact_Us_PO from "../../support/pageObjects/webdriver-uni/Contact_Us_PO";
 ///  <reference types="Cypress" />
 
 describe("Test Contact Us form via WebdriverUni", () => {
@@ -36,7 +37,17 @@ describe("Test Contact Us form via WebdriverUni", () => {
     // cy.get('[type="submit"]').click();
     // cy.get("h1").should("have.text", "Thank You for your Message!");
 
-    cy.webdriverUni_ContactForm_Submission(
+    // cy.webdriverUni_ContactForm_Submission(
+    //   Cypress.env("first_name"),
+    //   data.last_name,
+    //   data.email,
+    //   "How i can learn Cypress?",
+    //   "h1",
+    //   "Thank You for your Message!"
+    // );
+
+    const contact_Us_PO = new Contact_Us_PO();
+    contact_Us_PO.contactForm_Submission(
       Cypress.env("first_name"),
       data.last_name,
       data.email,
