@@ -4,7 +4,7 @@
 
 describe("Handling data via webdriveruni", () => {
   beforeEach(() => {
-    cy.visit("/");
+    cy.visit("https://webdriveruniversity.com/");
     cy.get("#data-table").invoke("removeAttr", "target").click({ force: true });
   });
   it("Calculate and assert the total age of users", () => {

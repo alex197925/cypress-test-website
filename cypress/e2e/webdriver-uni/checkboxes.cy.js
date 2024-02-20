@@ -3,7 +3,7 @@
 
 describe("Verify checkboxes via webdriversuni", () => {
   beforeEach(() => {
-    cy.visit("/");
+    cy.visit("https://webdriveruniversity.com");
     cy.get("#dropdown-checkboxes-radiobuttons")
       .invoke("removeAttr", "target")
       .click({ force: true });
