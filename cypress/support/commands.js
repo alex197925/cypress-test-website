@@ -17,6 +17,13 @@
 //
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
+Cypress.Commands.add("navigateTo_WebdriverUni_Homepage", () => {
+  cy.visit("/");
+  cy.get("#dropdown-checkboxes-radiobuttons")
+    .invoke("removeAttr", "target")
+    .click({ force: true });
+});
+
 Cypress.Commands.add("selectProduct", (productName) => {
   cy.get(".fixed_wrapper .prdocutname").each(($el, index, $list) => {
     if ($el.text().includes(productName)) {
