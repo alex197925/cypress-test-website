@@ -21,6 +21,7 @@ describe("Test Contact Us form via WebdriverUni", () => {
   beforeEach(() => {
     homepage_PO.visitHomepage();
     homepage_PO.clickOn_ContactUs_Button();
+    // cy.pause();
   });
 
   // Input fields Test
