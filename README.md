@@ -233,3 +233,9 @@ npx cypress run
 ### Pause
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/pause)
+
+### Wait
+
+<small>**_Wait for a number of milliseconds or wait for an aliased resource to resolve before moving on to the next command._**</small>
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/wait#__docusaurus_skipToContent_fallback)
