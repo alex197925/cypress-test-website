@@ -7,8 +7,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    specPattern: "cypress/e2e/**/*.{js,jsx,ts,tsx,feature}",
-    excludeSpecPattern: "cypress/e2e/other/*.js",
+    specPattern: "cypress/e2e/**/*.cy.{js,jsx,ts,tsx,feature}",
+    // excludeSpecPattern: "cypress/e2e/other/*.js",
     baseUrl: "https://webdriveruniversity.com",
     video: false,
     chromeWebSecurity: false,

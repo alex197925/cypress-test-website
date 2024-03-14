@@ -4,6 +4,7 @@
 describe("Verify checkboxes via webdriversuni", () => {
   beforeEach(() => {
     // Custom command
+    // cy.navigateTo_WebdriverUni_Homepage();
     cy.navigateTo_WebdriverUni_Checkbox_Page();
   });
   it("Check and validate checkbox", () => {

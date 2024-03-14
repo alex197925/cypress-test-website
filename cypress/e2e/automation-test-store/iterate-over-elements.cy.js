@@ -15,6 +15,7 @@ describe("Iterate over elements  ", () => {
   });
 
   it("Add specific product to basket", () => {
+    // This code house now in Custom Commands..
     // cy.get(".fixed_wrapper .prdocutname").each(($el, index, $list) => {
     //   if ($el.text().includes("Curls to straight Shampoo")) {
     //     cy.wrap($el).click();

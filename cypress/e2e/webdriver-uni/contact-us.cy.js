@@ -1,13 +1,14 @@
 /** @format */
 
-import HomePage_PO from "../../support/pageObjects/webdriver-uni/Homepage_Po";
+import HomePage_PO from "../../support/pageObjects/webdriver-uni/Homepage_PO";
 import Contact_Us_PO from "../../support/pageObjects/webdriver-uni/Contact_Us_PO";
 ///  <reference types="Cypress" />
 
 describe("Test Contact Us form via WebdriverUni", () => {
-  const homepage_Po = new HomePage_PO();
+  const homepage_PO = new HomePage_PO();
   const contact_Us_PO = new Contact_Us_PO();
 
+  // Loading data from fixtures folder
   before(() => {
     cy.fixture("example").then((data) => {
       // if not working then use next use globalThis.data = data;
@@ -17,13 +18,12 @@ describe("Test Contact Us form via WebdriverUni", () => {
   });
 
   beforeEach(() => {
-    homepage_Po.visitHomepage();
-    homepage_Po.clickOn_ContactUs_Button();
+    homepage_PO.visitHomepage();
+    homepage_PO.clickOn_ContactUs_Button();
   });
 
   // Input fields Test
   it("Should be able to submit a successful submission vie contact us form", () => {
-    // cypress code
     cy.document().should("have.property", "charset").and("eq", "UTF-8");
     cy.title().should("include", "WebDriver | Contact Us");
     cy.url().should("include", "contactus");
