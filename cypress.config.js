@@ -15,6 +15,8 @@ module.exports = defineConfig({
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 120000,
     trashAssetsBeforeRuns: true,
+    viewportHeight: 2080,
+    viewportWidth: 2920,
     env: {
       first_name: "Sarah",
       webdriveruni_homepage: "https://webdriveruniversity.com",
