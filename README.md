@@ -229,3 +229,7 @@ npx cypress run
 <small>**_Load a fixed set of data located in a file._**</small>
 
 > [Link to Cypress Website](https://docs.cypress.io/api/commands/fixture#Syntax)
+
+### Pause
+
+> [Link to Cypress Website](https://docs.cypress.io/api/commands/pause)
