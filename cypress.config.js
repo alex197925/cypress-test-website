@@ -9,7 +9,7 @@ const path = require("path");
 
 function getConfigurationByFile(file) {
   // Navigate to config folder and file "name".json
-  const pathToConfigFile = path.resolve("cypress\\config", `${file}.json`);
+  const pathToConfigFile = path.resolve("cypress", "config", `${file}.json`);
 
   if (!fs.existsSync(pathToConfigFile)) {
     console.log("No custom config file found..");
@@ -37,7 +37,7 @@ module.exports = defineConfig({
     trashAssetsBeforeRuns: true,
     videoUploadOnPasses: false,
     // defaultCommandTimeout: 10000,
-    pageLoadTimeout: 120000,
+    // pageLoadTimeout: 120000,
     trashAssetsBeforeRuns: true,
     reporter: "cypress-multi-reporters",
     reporterOptions: {
