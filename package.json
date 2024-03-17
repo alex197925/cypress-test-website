@@ -177,7 +177,10 @@
   "devDependencies": {
     "cypress-multi-reporters": "^1.6.4",
     "cypress-xpath": "^2.0.1",
-    "mocha-junit-reporter": "^2.2.1"
+    "mocha-junit-reporter": "^2.2.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "scripts": {
     "triggerAllTests-headless": "npx cypress run",

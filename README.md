@@ -253,6 +253,8 @@ npx cypress run
 ```
 npm i mochawesome-report-generator
 
+npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator
+
 ```
 
 > [Link to npm Website](https://www.npmjs.com/package/mochawesome-report-generator)
