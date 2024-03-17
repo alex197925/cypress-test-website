@@ -16,9 +16,13 @@ module.exports = defineConfig({
     screenshotOnRunFailure: true,
     trashAssetsBeforeRuns: true,
     videoUploadOnPasses: false,
-    defaultCommandTimeout: 10000,
+    // defaultCommandTimeout: 10000,
     pageLoadTimeout: 120000,
     trashAssetsBeforeRuns: true,
+    reporter: "cypress-multi-reporters",
+    reporterOptions: {
+      configFile: "reporter-config.json",
+    },
 
     // viewportHeight: 2080,
     // viewportWidth: 2920,
