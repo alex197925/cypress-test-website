@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="3.916" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2024-03-17T11:36:03" tests="0" file="cypress/e2e/webdriver-uni/datepicker.cy.js" time="0.000" failures="0">
-  </testsuite>
-  <testsuite name="Test Datepicker via webdriveruni" timestamp="2024-03-17T11:36:03" tests="1" time="3.891" failures="0">
-    <testcase name="Test Datepicker via webdriveruni Select date from the datepicker" time="3.790" classname="Select date from the datepicker">
-    </testcase>
-  </testsuite>
-</testsuites>

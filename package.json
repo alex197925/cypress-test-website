@@ -185,7 +185,9 @@
     "triggerAllTests-chrome": "npx cypress run --browser chrome",
     "triggerAllTests-dashboard": "npx cypress run --record --key 5675cf47-7b3a-4836-883f-e4a5825984a5",
     "triggerAllTests-webdriveruni": "npx cypress run --spec cypress/e2e/webdriver-uni/*",
-    "junit-merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml"
+    "junit-merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/results.xml",
+    "delete-junit-report": "rm -fr cypress/results/junit/results.xml",
+    "delete-results": "rm -rf cypress/results/* || true"
   },
   "author": "",
   "license": "ISC"

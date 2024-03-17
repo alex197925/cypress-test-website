@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.681" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2024-03-17T11:36:14" tests="0" file="cypress/e2e/webdriver-uni/js-alerts.cy.js" time="0.000" failures="0">
-  </testsuite>
-  <testsuite name="Handle js alerts" timestamp="2024-03-17T11:36:14" tests="1" time="0.657" failures="0">
-    <testcase name="Handle js alerts Validate js confirm box using stub" time="0.633" classname="Validate js confirm box using stub">
-    </testcase>
-  </testsuite>
-</testsuites>

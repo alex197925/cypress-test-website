@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="3.843" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2024-03-17T11:35:13" tests="0" file="cypress/e2e/automation-test-store/add-multiple-items-to-basket.cy.js" time="0.000" failures="0">
-  </testsuite>
-  <testsuite name="Add multiple items to basket" timestamp="2024-03-17T11:35:13" tests="1" time="3.814" failures="0">
-    <testcase name="Add multiple items to basket Add specific items to basket" time="2.458" classname="Add specific items to basket">
-    </testcase>
-  </testsuite>
-</testsuites>

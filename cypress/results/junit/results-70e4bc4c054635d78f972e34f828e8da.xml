@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.854" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2024-03-17T11:36:19" tests="0" file="cypress/e2e/webdriver-uni/radio-buttons.cy.js" time="0.000" failures="0">
-  </testsuite>
-  <testsuite name="Verify radio buttons  via webdriversuni" timestamp="2024-03-17T11:36:19" tests="1" time="0.827" failures="0">
-    <testcase name="Verify radio buttons  via webdriversuni Validate the state of specific radio buttons" time="0.802" classname="Validate the state of specific radio buttons">
-    </testcase>
-  </testsuite>
-</testsuites>
