@@ -174,7 +174,11 @@
     "yallist": "^4.0.0",
     "yauzl": "^2.10.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cypress-multi-reporters": "^1.6.4",
+    "cypress-xpath": "^2.0.1",
+    "mocha-junit-reporter": "^2.2.1"
+  },
   "scripts": {
     "triggerAllTests-headless": "npx cypress run",
     "triggerAllTests-headed": "npx cypress run --headed",
