@@ -2,11 +2,31 @@
 
 const { defineConfig } = require("cypress");
 
+// Multiple configuration files
+
+const fs = require("fs-extra");
+const path = require("path");
+
+function getConfigurationByFile(file) {
+  // Navigate to config folder and file "name".json
+  const pathToConfigFile = path.resolve("cypress\\config", `${file}.json`);
+
+  if (!fs.existsSync(pathToConfigFile)) {
+    console.log("No custom config file found..");
+    return {};
+  }
+
+  return fs.readJson(pathToConfigFile);
+}
+
 module.exports = defineConfig({
   projectId: "b3j1a8",
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
+      const file = config.env.configFile || "";
+
+      return getConfigurationByFile(file);
     },
     specPattern: "cypress/e2e/**/*.cy.{js,jsx,ts,tsx,feature}",
     // excludeSpecPattern: "cypress/e2e/other/*.js",
