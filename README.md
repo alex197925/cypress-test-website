@@ -258,3 +258,7 @@ npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generato
 ```
 
 > [Link to npm Website](https://www.npmjs.com/package/mochawesome-report-generator)
+
+### Switch between multiple configuration files
+
+> [Link to Cypress Website](https://docs.cypress.io/api/plugins/configuration-api#Switch-between-multiple-configuration-files)
