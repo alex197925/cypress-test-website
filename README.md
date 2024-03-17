@@ -243,3 +243,13 @@ npx cypress run
 ### Multiple reporters
 
 > [Link to Cypress Website](https://docs.cypress.io/guides/tooling/reporters#Multiple-reporters)
+
+### mochawesome-report-generator (marge)
+
+<small>**_marge (mochawesome-report-generator) is the counterpart to mochawesome, </br> a custom reporter for use with the Javascript testing framework, mocha. Marge takes the JSON output from mochawesome and generates </br> a full fledged HTML/CSS report that helps visualize your test suites._**</small>
+
+**Install**
+
+```
+npm i mochawesome-report-generator
+```
