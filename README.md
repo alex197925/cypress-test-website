@@ -255,4 +255,4 @@ npm i mochawesome-report-generator
 
 ```
 
-> [Link to Cypress Website](https://www.npmjs.com/package/mochawesome-report-generator)
+> [Link to npm Website](https://www.npmjs.com/package/mochawesome-report-generator)
