@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-03-17T13:52:56.343Z",
+    "end": "2024-03-17T13:52:59.548Z",
+    "duration": 3205,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1a269600-0b21-4a5e-8a4d-598f62714fc4",
+      "title": "",
+      "fullFile": "cypress/e2e/other/same-origin-policy.cy.js",
+      "file": "cypress/e2e/other/same-origin-policy.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2bb10646-25ba-49de-bd50-5e9ca4a5fdd6",
+          "title": "Cypress web security",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate visiting two different domains",
+              "fullTitle": "Cypress web security Validate visiting two different domains",
+              "timedOut": null,
+              "duration": 1898,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Test will not pass\ncy.visit(\"https://webdriveruniversity.com/\");\ncy.visit(\"https://www.google.com\");",
+              "err": {},
+              "uuid": "6d8586b5-9911-48be-a878-8119c82f90f0",
+              "parentUUID": "2bb10646-25ba-49de-bd50-5e9ca4a5fdd6",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate visiting two different domains via user actions",
+              "fullTitle": "Cypress web security Validate visiting two different domains via user actions",
+              "timedOut": null,
+              "duration": 1259,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://webdriveruniversity.com/\");\ncy.get(\"#automation-test-store\").invoke(\"removeAttr\", \"target\").click();",
+              "err": {},
+              "uuid": "152fc97e-2a88-4390-9c47-32d9d39244b5",
+              "parentUUID": "2bb10646-25ba-49de-bd50-5e9ca4a5fdd6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6d8586b5-9911-48be-a878-8119c82f90f0",
+            "152fc97e-2a88-4390-9c47-32d9d39244b5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3157,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
