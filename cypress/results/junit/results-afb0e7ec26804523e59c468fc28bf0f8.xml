@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.961" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-03-17T11:35:29" tests="0" file="cypress/e2e/automation-test-store/inspect-item.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Inspect Automation Test Store item using chain of commands" timestamp="2024-03-17T11:35:29" tests="1" time="2.930" failures="0">
+    <testcase name="Inspect Automation Test Store item using chain of commands Click on the first item using item text" time="1.495" classname="Click on the first item using item text">
+    </testcase>
+  </testsuite>
+</testsuites>

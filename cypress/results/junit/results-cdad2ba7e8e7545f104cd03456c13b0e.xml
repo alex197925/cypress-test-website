@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.759" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-03-17T11:36:17" tests="0" file="cypress/e2e/webdriver-uni/mouse-actions.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test mouse actions" timestamp="2024-03-17T11:36:17" tests="1" time="0.731" failures="0">
+    <testcase name="Test mouse actions I should be able hold down the left mouse click button on given element" time="0.727" classname="I should be able hold down the left mouse click button on given element">
+    </testcase>
+  </testsuite>
+</testsuites>
