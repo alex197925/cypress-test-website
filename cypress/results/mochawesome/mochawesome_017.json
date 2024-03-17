@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-03-17T13:53:32.003Z",
-    "end": "2024-03-17T13:53:32.777Z",
-    "duration": 774,
+    "start": "2024-03-17T14:26:55.106Z",
+    "end": "2024-03-17T14:26:55.906Z",
+    "duration": 800,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "3278752f-a864-4bb4-b21f-cac2192cc6aa",
+      "uuid": "e9be2bee-ff40-4215-bfe9-34c49a17ee19",
       "title": "",
       "fullFile": "cypress/e2e/webdriver-uni/mouse-actions.cy.js",
       "file": "cypress/e2e/webdriver-uni/mouse-actions.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "f42464bf-7067-4da7-9934-861d2c5d5cb5",
+          "uuid": "7a97df4e-5008-4608-baae-68399298100e",
           "title": "Test mouse actions",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "I should be able hold down the left mouse click button on given element",
               "fullTitle": "Test mouse actions I should be able hold down the left mouse click button on given element",
               "timedOut": null,
-              "duration": 724,
+              "duration": 759,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit(\"https://webdriveruniversity.com\");\ncy.get(\"#actions\").scrollIntoView().invoke(\"removeAttr\", \"target\").click({\n  force: true\n});\ncy.get(\"#click-box\").trigger(\"mousedown\", {\n  which: 1\n}).then($element => {\n  expect($element).to.have.css(\"background-color\", \"rgb(0, 255, 0)\");\n});",
               "err": {},
-              "uuid": "402c9195-47d8-4ed1-9cec-b8b37f67f5ea",
-              "parentUUID": "f42464bf-7067-4da7-9934-861d2c5d5cb5",
+              "uuid": "507280f6-bf89-49ca-9df3-8ca0075f3613",
+              "parentUUID": "7a97df4e-5008-4608-baae-68399298100e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "402c9195-47d8-4ed1-9cec-b8b37f67f5ea"
+            "507280f6-bf89-49ca-9df3-8ca0075f3613"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 724,
+          "duration": 759,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

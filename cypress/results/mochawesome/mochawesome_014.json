@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-03-17T13:53:22.955Z",
-    "end": "2024-03-17T13:53:25.236Z",
-    "duration": 2281,
+    "start": "2024-03-17T14:26:46.853Z",
+    "end": "2024-03-17T14:26:49.114Z",
+    "duration": 2261,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "0e3f5f1f-5a60-4342-9bc0-3dd39a24e61c",
+      "uuid": "d86f42e7-e467-49fe-ae51-af28f421b54f",
       "title": "",
       "fullFile": "cypress/e2e/webdriver-uni/file-upload.cy.js",
       "file": "cypress/e2e/webdriver-uni/file-upload.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "591da24f-e53a-443d-933d-d7b87d8da332",
+          "uuid": "870fe1b5-e605-4a86-bada-698e90bdfe7f",
           "title": "Test File upload via webdriveruni",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Upload No file...",
               "fullTitle": "Test File upload via webdriveruni Upload No file...",
               "timedOut": null,
-              "duration": 757,
+              "duration": 812,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit(\"http://www.webdriveruniversity.com\");\ncy.get(\"#file-upload\").invoke(\"removeAttr\", \"target\").click({\n  force: true\n});\ncy.get(\"#submit-button\").click();\ncy.on(\"window:alert\", str => {\n  expect(str).to.eq(\"You need to select a file to upload!\");\n});",
               "err": {},
-              "uuid": "4c1617fb-cf53-4382-9789-83a928cbf955",
-              "parentUUID": "591da24f-e53a-443d-933d-d7b87d8da332",
+              "uuid": "8b2f4c1c-229e-4b14-ace0-abea3acbd722",
+              "parentUUID": "870fe1b5-e605-4a86-bada-698e90bdfe7f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "4c1617fb-cf53-4382-9789-83a928cbf955"
+            "8b2f4c1c-229e-4b14-ace0-abea3acbd722"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 757,
+          "duration": 812,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

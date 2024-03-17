@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-03-17T13:53:03.761Z",
-    "end": "2024-03-17T13:53:06.032Z",
-    "duration": 2271,
+    "start": "2024-03-17T14:26:28.238Z",
+    "end": "2024-03-17T14:26:30.406Z",
+    "duration": 2168,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "1e92313a-59c2-44ff-9063-9cab6bb0164e",
+      "uuid": "e0d5068b-579c-43e7-9cb2-8ad35acdd75e",
       "title": "",
       "fullFile": "cypress/e2e/webdriver-uni/browser-navigation.cy.js",
       "file": "cypress/e2e/webdriver-uni/browser-navigation.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "2be922a7-95ae-4179-930b-09a1c2e56667",
+          "uuid": "2ba902d6-724f-477f-8767-c1b24bd9d1a7",
           "title": "Validate webdriveruni homepage links",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Confirm links redirect to the correct pages",
               "fullTitle": "Validate webdriveruni homepage links Confirm links redirect to the correct pages",
               "timedOut": null,
-              "duration": 2222,
+              "duration": 2141,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "// Navigate to the home page\ncy.visit(\"https://webdriveruniversity.com\");\n// Click on button \"Contact us\", remove attribute _target, click on link\ncy.get(\"#contact-us\").invoke(\"removeAttr\", \"target\").click({\n  force: true\n});\n// Confirm that url contain contactus path\ncy.url().should(\"contain\", \"contactus\");\n// Navigate back to the home page\ncy.go(\"back\");\n// Reload page\ncy.reload();\n// Confirm correct home page url\ncy.url().should(\"contain\", \"https://webdriveruniversity.com\");\n// cy.reload(true);  true forces the reload without cache.\n// Navigate to contact us\ncy.go(\"forward\");\n// Confirm right url \"contactus\"\ncy.url().should(\"contain\", \"contactus\");\n// Navigate back to home page\ncy.go(\"back\");\n// Get Login portal link, remove _target attribute, click\ncy.get(\"#login-portal\").invoke(\"removeAttr\", \"target\").click({\n  force: true\n});\n// Confirm right url link contain \"Login-Portal\"\ncy.url().should(\"contain\", \"Login-Portal\");\n// Navigate back to home page\ncy.go(\"back\");\ncy.get(\"#to-do-list\").invoke(\"removeAttr\", \"target\").click({\n  force: true\n});\ncy.url().should(\"contain\", \"To-Do-List\");\ncy.go(\"back\");",
               "err": {},
-              "uuid": "65eabb58-9f66-4fc6-80f5-9ecc72e2c5b2",
-              "parentUUID": "2be922a7-95ae-4179-930b-09a1c2e56667",
+              "uuid": "2b521696-cd7a-43f6-a9cd-b6d26b157b17",
+              "parentUUID": "2ba902d6-724f-477f-8767-c1b24bd9d1a7",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "65eabb58-9f66-4fc6-80f5-9ecc72e2c5b2"
+            "2b521696-cd7a-43f6-a9cd-b6d26b157b17"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2222,
+          "duration": 2141,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

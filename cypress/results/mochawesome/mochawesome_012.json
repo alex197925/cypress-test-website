@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-03-17T13:53:15.605Z",
-    "end": "2024-03-17T13:53:16.387Z",
-    "duration": 782,
+    "start": "2024-03-17T14:26:39.671Z",
+    "end": "2024-03-17T14:26:40.470Z",
+    "duration": 799,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "a55561b3-0263-4134-a70b-8b18c20af158",
+      "uuid": "30191026-b92d-49e2-9a2c-6c7d5f0f2496",
       "title": "",
       "fullFile": "cypress/e2e/webdriver-uni/data-tables.cy.js",
       "file": "cypress/e2e/webdriver-uni/data-tables.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c11fe0e0-7446-4788-b91b-b2bea9cefbee",
+          "uuid": "4d543783-8504-40c3-9ea3-b1dd7191f4ce",
           "title": "Handling data via webdriveruni",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Calculate and assert the age of a given user based on last name",
               "fullTitle": "Handling data via webdriveruni Calculate and assert the age of a given user based on last name",
               "timedOut": null,
-              "duration": 734,
+              "duration": 750,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.get(\"#thumbnail-1 tr td:nth-child(2)\").each(($el, index, $list) => {\n  const text = $el.text();\n  if (text.includes(\"Woods\")) {\n    cy.get(\"#thumbnail-1 tr td:nth-child(2)\").eq(index).next().then(age => {\n      const userAge = age.text();\n      expect(userAge).equal(\"80\");\n    });\n  }\n});",
               "err": {},
-              "uuid": "6614a859-4f1a-4045-9704-d70c038f7ae9",
-              "parentUUID": "c11fe0e0-7446-4788-b91b-b2bea9cefbee",
+              "uuid": "39c6893e-cbb7-4cc5-9c16-dc48decb6203",
+              "parentUUID": "4d543783-8504-40c3-9ea3-b1dd7191f4ce",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "6614a859-4f1a-4045-9704-d70c038f7ae9"
+            "39c6893e-cbb7-4cc5-9c16-dc48decb6203"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 734,
+          "duration": 750,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-03-17T13:53:26.665Z",
-    "end": "2024-03-17T13:53:28.085Z",
-    "duration": 1420,
+    "start": "2024-03-17T14:26:50.471Z",
+    "end": "2024-03-17T14:26:51.598Z",
+    "duration": 1127,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b2408d77-ff76-4b5c-9edd-54715b63002c",
+      "uuid": "d8bd80ea-3a79-4aa4-be31-a9babbf3c323",
       "title": "",
       "fullFile": "cypress/e2e/webdriver-uni/iframe.cy.js",
       "file": "cypress/e2e/webdriver-uni/iframe.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "bb4f3236-09f0-4cea-9491-1928cda3aa4a",
+          "uuid": "aec6f682-f641-4726-94aa-7e1e1a8277ba",
           "title": "Handling IFrame & Modals",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Handle webdriveruni iframe and modal",
               "fullTitle": "Handling IFrame & Modals Handle webdriveruni iframe and modal",
               "timedOut": null,
-              "duration": 1390,
+              "duration": 1062,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit(\"/\");\ncy.get(\"#iframe\").invoke(\"removeAttr\", \"target\").click({\n  force: true\n});\n// Get all body from html\ncy.get(\"#frame\").then($iframe => {\n  const body = $iframe.contents().find(\"body\");\n  cy.wrap(body).as(\"iframe\");\n});\ncy.get(\"@iframe\").find(\"#button-find-out-more\").click();\ncy.get(\"@iframe\").find(\"#myModal\").as(\"modal\");\ncy.get(\"@modal\").should($expectedText => {\n  const text = $expectedText.text();\n  expect(text).to.include(\"Welcome to webdriveruniversity.com \");\n});\ncy.get(\"@modal\").contains(\"Close\").click();",
               "err": {},
-              "uuid": "f3f86ded-f4f9-455f-b17f-8dfe7f6d4421",
-              "parentUUID": "bb4f3236-09f0-4cea-9491-1928cda3aa4a",
+              "uuid": "08ec0a5b-c98e-44e6-9823-4efc899a07d7",
+              "parentUUID": "aec6f682-f641-4726-94aa-7e1e1a8277ba",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f3f86ded-f4f9-455f-b17f-8dfe7f6d4421"
+            "08ec0a5b-c98e-44e6-9823-4efc899a07d7"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1390,
+          "duration": 1062,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

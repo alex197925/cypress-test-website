@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-03-17T13:53:34.286Z",
-    "end": "2024-03-17T13:53:35.317Z",
-    "duration": 1031,
+    "start": "2024-03-17T14:26:57.277Z",
+    "end": "2024-03-17T14:26:58.166Z",
+    "duration": 889,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "78b8b9b6-2d4e-4b44-8d3a-f1ee6c26f9bc",
+      "uuid": "5c2be4f5-8b78-4874-b6f3-8a3d6762661f",
       "title": "",
       "fullFile": "cypress/e2e/webdriver-uni/radio-buttons.cy.js",
       "file": "cypress/e2e/webdriver-uni/radio-buttons.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "ba961fac-9dd0-4cf3-b9e2-b17f24f33f29",
+          "uuid": "20a5eb91-b99c-4042-93de-649d9da7a916",
           "title": "Verify radio buttons  via webdriversuni",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Validate the state of specific radio buttons",
               "fullTitle": "Verify radio buttons  via webdriversuni Validate the state of specific radio buttons",
               "timedOut": null,
-              "duration": 975,
+              "duration": 840,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.get(\"[value='lettuce']\").should(\"not.be.checked\");\ncy.get(\"[value='pumpkin']\").should(\"be.checked\");\ncy.get(\"[value='lettuce']\").check();\ncy.get(\"[value='lettuce']\").should(\"be.checked\");\ncy.get(\"[value='pumpkin']\").should(\"not.be.checked\");\ncy.get(\"[value='cabbage']\").should(\"be.disabled\");",
               "err": {},
-              "uuid": "25a66aee-dc7c-4b7c-aeb3-ca853d0e53e0",
-              "parentUUID": "ba961fac-9dd0-4cf3-b9e2-b17f24f33f29",
+              "uuid": "18a3f0b2-4233-498f-990b-9fd929653172",
+              "parentUUID": "20a5eb91-b99c-4042-93de-649d9da7a916",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "25a66aee-dc7c-4b7c-aeb3-ca853d0e53e0"
+            "18a3f0b2-4233-498f-990b-9fd929653172"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 975,
+          "duration": 840,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

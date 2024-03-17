@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-03-17T13:53:29.786Z",
-    "end": "2024-03-17T13:53:30.554Z",
-    "duration": 768,
+    "start": "2024-03-17T14:26:52.902Z",
+    "end": "2024-03-17T14:26:53.727Z",
+    "duration": 825,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "ccb3fd24-8bce-4ccc-9ec0-8a3fd1652bc9",
+      "uuid": "ba3f4b6c-e733-49aa-9ec0-ec4124cbacc5",
       "title": "",
       "fullFile": "cypress/e2e/webdriver-uni/js-alerts.cy.js",
       "file": "cypress/e2e/webdriver-uni/js-alerts.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "ac0afc6b-ab89-4eb4-aa33-d0a2c8e21f3f",
+          "uuid": "1947328f-aaad-4f04-8c3a-714a9ea4f993",
           "title": "Handle js alerts",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Validate js confirm box using stub",
               "fullTitle": "Handle js alerts Validate js confirm box using stub",
               "timedOut": null,
-              "duration": 709,
+              "duration": 776,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit(\"https://webdriveruniversity.com\");\ncy.get(\"#popup-alerts\").invoke(\"removeAttr\", \"target\").click({\n  force: true\n});\nconst stub = cy.stub();\ncy.on(\"window:confirm\", stub);\ncy.get(\"#button4\").click().then(() => {\n  expect(stub.getCall(0)).to.be.calledWith(\"Press a button!\");\n}).then(() => {\n  return true;\n}).then(() => {\n  cy.get(\"#confirm-alert-text\").contains(\"You pressed OK!\");\n});",
               "err": {},
-              "uuid": "cbe8af5f-0348-4cb6-b46e-f24ab7a42e3d",
-              "parentUUID": "ac0afc6b-ab89-4eb4-aa33-d0a2c8e21f3f",
+              "uuid": "9c619462-8b39-4ace-bb8f-22064e611a36",
+              "parentUUID": "1947328f-aaad-4f04-8c3a-714a9ea4f993",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "cbe8af5f-0348-4cb6-b46e-f24ab7a42e3d"
+            "9c619462-8b39-4ace-bb8f-22064e611a36"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 709,
+          "duration": 776,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

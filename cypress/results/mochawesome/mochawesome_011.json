@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2024-03-17T13:53:10.324Z",
-    "end": "2024-03-17T13:53:14.188Z",
-    "duration": 3864,
+    "start": "2024-03-17T14:26:34.487Z",
+    "end": "2024-03-17T14:26:38.262Z",
+    "duration": 3775,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "dff58e41-c64a-4c16-8e2d-3476f5a3ebea",
+      "uuid": "ae60e47b-47e3-48f7-94e8-600c127cf804",
       "title": "",
       "fullFile": "cypress/e2e/webdriver-uni/contact-us.cy.js",
       "file": "cypress/e2e/webdriver-uni/contact-us.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "17777984-78ab-4c1b-a465-bf4d30e5bc8c",
+          "uuid": "73dab8dc-25e9-4d93-8066-f47f4748c686",
           "title": "Test Contact Us form via WebdriverUni",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Should be able to submit a successful submission vie contact us form",
               "fullTitle": "Test Contact Us form via WebdriverUni Should be able to submit a successful submission vie contact us form",
               "timedOut": null,
-              "duration": 2349,
+              "duration": 2354,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.document().should(\"have.property\", \"charset\").and(\"eq\", \"UTF-8\");\ncy.title().should(\"include\", \"WebDriver | Contact Us\");\ncy.url().should(\"include\", \"contactus\");\ncontact_Us_PO.contactForm_Submission(Cypress.env(\"first_name\"), data.last_name, data.email, \"How i can learn Cypress?\", \"h1\", \"Thank You for your Message!\");",
               "err": {},
-              "uuid": "a49b8de9-6d29-4e72-b836-fa4ed223f490",
-              "parentUUID": "17777984-78ab-4c1b-a465-bf4d30e5bc8c",
+              "uuid": "d6d81030-4340-42e6-b16e-906c01517f94",
+              "parentUUID": "73dab8dc-25e9-4d93-8066-f47f4748c686",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Should not be able to submit a successful submission vie contact us form as fields are required ",
               "fullTitle": "Test Contact Us form via WebdriverUni Should not be able to submit a successful submission vie contact us form as fields are required ",
               "timedOut": null,
-              "duration": 1487,
+              "duration": 1389,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "contact_Us_PO.contactForm_Submission(data.first_name, data.last_name, \" \", \"How i can learn Cypress?\", \"body\", \"Error: Invalid email address\");",
               "err": {},
-              "uuid": "07c5c702-622c-416e-9f18-9139b8849e15",
-              "parentUUID": "17777984-78ab-4c1b-a465-bf4d30e5bc8c",
+              "uuid": "71869cc4-3884-49f3-9668-1413a6ec2703",
+              "parentUUID": "73dab8dc-25e9-4d93-8066-f47f4748c686",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a49b8de9-6d29-4e72-b836-fa4ed223f490",
-            "07c5c702-622c-416e-9f18-9139b8849e15"
+            "d6d81030-4340-42e6-b16e-906c01517f94",
+            "71869cc4-3884-49f3-9668-1413a6ec2703"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3836,
+          "duration": 3743,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
