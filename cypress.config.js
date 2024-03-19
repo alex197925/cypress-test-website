@@ -37,15 +37,20 @@ module.exports = defineConfig({
     trashAssetsBeforeRuns: true,
     videoUploadOnPasses: false,
     defaultCommandTimeout: 10000,
-    // pageLoadTimeout: 120000,
+    pageLoadTimeout: 120000,
     trashAssetsBeforeRuns: true,
     reporter: "cypress-multi-reporters",
+    // viewportHeight: 2080,
+    // viewportWidth: 2920,
     reporterOptions: {
       configFile: "reporter-config.json",
     },
 
-    // viewportHeight: 2080,
-    // viewportWidth: 2920,
+    retries: {
+      runMode: 0,
+      openMode: 1,
+    },
+
     env: {
       first_name: "Sarah",
       webdriveruni_homepage: "https://webdriveruniversity.com",
