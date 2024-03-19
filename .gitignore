@@ -1,6 +1,13 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,dotenv
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,dotenv
 
+### test folders ###
+results
+screenshots
+videos
+mochawesome-report
+packege-lock.json
+
 ### dotenv ###
 .env
 
