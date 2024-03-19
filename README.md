@@ -265,4 +265,4 @@ npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generato
 
 ### Test Retries
 
-> [Link to Cypress Website](https://docs.cypress.io/guides/guides/test-retries#Introduction)
+> [Link to Cypress Website](https://docs.cypress.io/guides/guides/cross-browser-testing#Running-Specific-Tests-by-Browser)
