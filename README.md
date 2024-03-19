@@ -262,3 +262,7 @@ npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generato
 ### Switch between multiple configuration files
 
 > [Link to Cypress Website](https://docs.cypress.io/api/plugins/configuration-api#Switch-between-multiple-configuration-files)
+
+### Test Retries
+
+> [Link to Cypress Website](https://docs.cypress.io/guides/guides/test-retries#Introduction)
