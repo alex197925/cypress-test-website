@@ -286,3 +286,13 @@ Update the Jenkins version: brew upgrade jenkins-lts
 ```
 
 <small>**_After starting the Jenkins service, browse to http://localhost:8080 and follow the instructions to complete the installation._**</small>
+
+### Unlock Jenkins
+
+<small>**_In login page on localhost:8080 copy you path and past in your terminal:_**</small>
+
+```
+cat <your path>
+```
+
+<small>**_Copy your password_**</small>
