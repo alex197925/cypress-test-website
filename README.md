@@ -266,3 +266,9 @@ npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generato
 ### Test Retries
 
 > [Link to Cypress Website](https://docs.cypress.io/guides/guides/cross-browser-testing#Running-Specific-Tests-by-Browser)
+
+### Jenkins (CI) Continuous Integration
+
+> [Information about Jenkins](https://www.jenkins.io/doc/book/platform-information/support-policy-java/)
+
+> [Archived OpenJDK General-Availability Releases Website](https://jdk.java.net/archive/)
