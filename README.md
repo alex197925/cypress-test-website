@@ -274,3 +274,15 @@ npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generato
 > [Archived OpenJDK General-Availability Releases Website](https://jdk.java.net/archive/)
 
 > [Jenkins download and deployment](https://www.jenkins.io/download/)
+
+**macOS Installers for Jenkins LTS**
+
+```
+Install the latest LTS version: brew install jenkins-lts
+Start the Jenkins service: brew services start jenkins-lts
+Restart the Jenkins service: brew services restart jenkins-lts
+Update the Jenkins version: brew upgrade jenkins-lts
+
+```
+
+<small>**_After starting the Jenkins service, browse to http://localhost:8080 and follow the instructions to complete the installation._**</small>
