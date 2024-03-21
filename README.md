@@ -272,3 +272,5 @@ npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generato
 > [Information about Jenkins](https://www.jenkins.io/doc/book/platform-information/support-policy-java/)
 
 > [Archived OpenJDK General-Availability Releases Website](https://jdk.java.net/archive/)
+
+> [Jenkins download and deployment](https://www.jenkins.io/download/)
