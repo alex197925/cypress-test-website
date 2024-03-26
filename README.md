@@ -299,3 +299,9 @@ cat <your path>
 ```
 
 <small>**_Copy your password_**</small>
+
+### Parallelization
+
+> [Link to Cypress Website](https://docs.cypress.io/guides/cloud/smart-orchestration/parallelization#Overview)
+
+> [Git Parallel tests without recording on dashboard](Parallel tests without recording on dashboard)
