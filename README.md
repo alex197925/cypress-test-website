@@ -305,3 +305,7 @@ cat <your path>
 > [Link to Cypress Website](https://docs.cypress.io/guides/cloud/smart-orchestration/parallelization#Overview)
 
 > [Git Parallel tests without recording on dashboard](Parallel tests without recording on dashboard)
+
+### Pipeline
+
+> [Link to Cypress Website](https://www.jenkins.io/doc/book/pipeline/)
